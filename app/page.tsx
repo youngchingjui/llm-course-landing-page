@@ -30,19 +30,19 @@ export default function LandingPageComponent() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-black text-white">
+        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-background text-foreground">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                   Master LLM Agents in Business
                 </h1>
-                <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
+                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   Learn to leverage Large Language Models for real-world business applications in just 6 weeks.
                 </p>
               </div>
               <div className="space-x-4">
-                <Button variant="outline" className="bg-white text-black hover:bg-gray-200">
+                <Button variant="outline" className="bg-white text-foreground hover:bg-gray-200">
                   Enroll Now
                 </Button>
                 <Button variant="outline">Learn More</Button>
@@ -53,7 +53,7 @@ export default function LandingPageComponent() {
         <section id="overview" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-4">Course Overview</h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
+            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
               Dive deep into the world of Large Language Models and their practical applications in business. This 6-week
               course combines theory with hands-on projects to give you a comprehensive understanding of LLM agents.
             </p>
@@ -63,7 +63,7 @@ export default function LandingPageComponent() {
                   <CardTitle>Duration</CardTitle>
                 </CardHeader>
                 <CardContent className="flex items-center space-x-2">
-                  <Calendar className="h-5 w-5 text-gray-500" />
+                  <Calendar className="h-5 w-5 text-muted-foreground" />
                   <span>6 Weeks</span>
                 </CardContent>
               </Card>
@@ -217,7 +217,7 @@ export default function LandingPageComponent() {
             <div className="grid gap-6 lg:grid-cols-3 mt-8">
               <Card>
                 <CardContent className="mt-4">
-                  <p className="text-gray-500 italic">
+                  <p className="text-muted-foreground italic">
                     &quot;This course opened my eyes to the potential of LLMs in business. The hands-on projects were
                     invaluable.&quot;
                   </p>
@@ -226,7 +226,7 @@ export default function LandingPageComponent() {
               </Card>
               <Card>
                 <CardContent className="mt-4">
-                  <p className="text-gray-500 italic">
+                  <p className="text-muted-foreground italic">
                     &quot;The instructor&apos;s expertise and real-world examples made complex concepts easy to understand and
                     apply.&quot;
                   </p>
@@ -235,7 +235,7 @@ export default function LandingPageComponent() {
               </Card>
               <Card>
                 <CardContent className="mt-4">
-                  <p className="text-gray-500 italic">
+                  <p className="text-muted-foreground italic">
                     &quot;I&apos;ve already implemented some of the techniques learned in this course at my company with great
                     results.&quot;
                   </p>
@@ -250,7 +250,7 @@ export default function LandingPageComponent() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to Transform Your Business with LLMs?</h2>
-                <p className="mx-auto max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Enroll now and start your journey towards mastering Large Language Models in business applications.
                 </p>
               </div>
@@ -261,11 +261,11 @@ export default function LandingPageComponent() {
                     placeholder="Enter your email"
                     type="email"
                   />
-                  <Button className="bg-white text-black hover:bg-gray-200" type="submit">
+                  <Button className="bg-white text-foreground hover:bg-gray-200" type="submit">
                     Enroll Now
                   </Button>
                 </form>
-                <p className="text-xs text-gray-400">
+                <p className="text-xs text-muted-foreground">
                   By enrolling, you agree to our Terms of Service and Privacy Policy.
                 </p>
               </div>
@@ -274,7 +274,7 @@ export default function LandingPageComponent() {
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500">© 2024 LLM Business Course. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">© 2024 LLM Business Course. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
             Terms of Service
