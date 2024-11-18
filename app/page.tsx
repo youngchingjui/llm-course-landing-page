@@ -10,7 +10,7 @@ import { CheckCircle2, GraduationCap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function LandingPageComponent() {
+export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-center max-w-screen-l mx-auto">
       <header className="px-4 lg:px-6 h-14 flex items-center">
@@ -147,7 +147,7 @@ export default function LandingPageComponent() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full md:w-1/3">
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/Ching_Young_03.jpeg?height=400&width=400"
                   width={400}
                   height={400}
                   alt="Instructor"
@@ -236,11 +236,12 @@ export default function LandingPageComponent() {
               <Card>
                 <CardContent className="mt-4">
                   <p className="text-muted-foreground italic">
-                    &quot;This course opened my eyes to the potential of LLMs in
-                    business. The hands-on projects were invaluable.&quot;
+                    &quot;I totally needed this course. I&apos;ve learned so
+                    much and it&apos;s already helping me in my current
+                    role.&quot;
                   </p>
                   <p className="mt-2 font-semibold">
-                    - Jane D., Marketing Manager
+                    - Patrick T., AI/ML Engineer, Etsy
                   </p>
                 </CardContent>
               </Card>
@@ -279,7 +280,7 @@ export default function LandingPageComponent() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Ready to Transform Your Business with LLMs?
+                  Ready to Build your first Enterprise LLM Solution?
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Enroll now and start your journey towards mastering Large
