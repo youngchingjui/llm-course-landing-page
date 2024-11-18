@@ -35,10 +35,10 @@ export default function LandingPageComponent() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Master LLM Agents in Business
+                  Build LLM Agents for Enterprise Applications
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Learn to leverage Large Language Models for real-world business applications in just 6 weeks.
+                  Learn to build Retrieval Augmented Generation (RAG), multi-agent systems, and more for enterprise applications in just 6 weeks.
                 </p>
               </div>
               <div className="space-x-4">
@@ -54,43 +54,8 @@ export default function LandingPageComponent() {
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-4">Course Overview</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
-              Dive deep into the world of Large Language Models and their practical applications in business. This 6-week
-              course combines theory with hands-on projects to give you a comprehensive understanding of LLM agents.
+              Dive deep into the world of Large Language Models and their practical applications in business. This <span className="font-caveat text-primary text-xl font-bold px-1 rotate-[-2deg] inline-block">6-week</span> course combines theory with hands-on projects to give you a comprehensive understanding of LLM agents.
             </p>
-            <div className="grid gap-6 lg:grid-cols-3 mt-8">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Duration</CardTitle>
-                </CardHeader>
-                <CardContent className="flex items-center space-x-2">
-                  <Calendar className="h-5 w-5 text-muted-foreground" />
-                  <span>6 Weeks</span>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Time Commitment</CardTitle>
-                </CardHeader>
-                <CardContent className="flex items-center space-x-2">
-                  <Clock className="h-5 w-5 text-gray-500" />
-                  <span>10 hours of lectures + assignments</span>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Prerequisites</CardTitle>
-                </CardHeader>
-                <CardContent className="flex items-center space-x-2">
-                  <User className="h-5 w-5 text-gray-500" />
-                  <span>Basic understanding of business processes</span>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </section>
-        <section id="topics" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
-          <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-4">Key Topics Covered</h2>
             <div className="grid gap-6 lg:grid-cols-2 mt-8">
               <Card>
                 <CardHeader>
@@ -158,13 +123,13 @@ export default function LandingPageComponent() {
               </div>
               <div className="w-full md:w-2/3">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl mb-4">Meet Your Instructor</h2>
-                <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mb-4">
-                  [Instructor Name] is a renowned expert in the field of Large Language Models and their applications in
-                  business. With over [X] years of experience in AI and machine learning, [he/she] has helped numerous
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mb-4">
+                  Ching Jui Young is a renowned expert in the field of Large Language Models and their applications in
+                  business. With over 13 years of experience in building complex solutions for enterprise, he has helped numerous
                   companies implement LLM solutions to drive innovation and efficiency.
                 </p>
-                <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  [Instructor Name]&apos;s practical approach to teaching ensures that you&apos;ll not only understand the theory
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Ching Jui&apos;s practical approach to teaching ensures that you&apos;ll not only understand the theory
                   behind LLMs but also gain hands-on experience in applying them to real-world business challenges.
                 </p>
               </div>
@@ -183,7 +148,12 @@ export default function LandingPageComponent() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  Gain hands-on experience with real-world LLM applications through case studies and projects.
+                  <p className="mb-3">Gain hands-on experience with real-world LLM applications through case studies and projects:</p>
+                  <ul className="space-y-2 list-disc pl-4 text-muted-foreground">
+                    <li>Build a RAG-powered document analysis system</li>
+                    <li>Develop multi-agent systems for customer service</li>
+                    <li>Create automated code review assistants</li>
+                  </ul>
                 </CardContent>
               </Card>
               <Card>

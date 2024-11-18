@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			caveat: ["var(--font-caveat)"],
+		},
   		colors: {
   			background: '#eff6ee',
   			foreground: '#273043',
